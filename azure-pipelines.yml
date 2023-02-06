@@ -3,7 +3,8 @@ pool:
 
 variables:
    ARM_PASS: $(adminPass)
-
+   
+steps:
 - task: CopyFiles@2
   inputs:
     SourceFolder: 'quickstarts/microsoft.web/webapp-linux-managed-mysql/'
